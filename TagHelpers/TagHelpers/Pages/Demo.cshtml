@@ -1,0 +1,41 @@
+﻿@page
+@model DemoModel
+@{
+	ViewData["Title"] = "Demo";
+}
+
+<form
+	method="post" >
+	<div
+		class="form-check pb-3" >
+		<input
+			asp-for="Boolean"
+			class="form-check-input"
+			type="checkbox" >
+		<label
+			asp-for="Boolean"
+			class="form-check-label" >
+			Checkbox entry
+		</label>
+	</div>
+	<div
+		class="form-group" >
+		<label
+			asp-for="Int" >
+			Number entry
+		</label>
+		<input
+			asp-for="Int"
+			class="form-control" >
+	</div>
+	<div
+		class="form-group" >
+		<label
+			asp-for="DateTime" >
+			Date entry
+		</label>
+		<input
+			asp-for="DateTime"
+			class="form-control" >
+	</div>
+</form>

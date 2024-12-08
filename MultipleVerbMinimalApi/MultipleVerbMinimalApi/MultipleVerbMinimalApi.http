@@ -1,0 +1,6 @@
+@MultipleVerbMinimalApi_HostAddress = http://localhost:5070
+
+GET {{MultipleVerbMinimalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,176 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+
+<form
+	method="post" >
+	<div
+		class="form-check " >
+		<input
+			asp-for="Input.Boolean"
+			class="form-check-input" />
+		<label
+			asp-for="Input.Boolean"
+			class="form-check-label" >
+		</label>
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Byte" >
+		</label>
+		<input
+			asp-for="Input.Byte"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.DateTime" >
+		</label>
+		<input
+			asp-for="Input.DateTime"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Decimal" >
+		</label>
+		<input
+			asp-for="Input.Decimal"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Decimal" >
+			Decimal with 0.000 format
+		</label>
+		<input
+			asp-for="Input.Decimal"
+			asp-format="{0:0.000}"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Double" >
+		</label>
+		<input
+			asp-for="Input.Double"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Email" >
+		</label>
+		<input
+			asp-for="Input.Email"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Float" >
+		</label>
+		<input
+			asp-for="Input.Float"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.HiddenInput" >
+		</label>
+		<input
+			asp-for="Input.HiddenInput"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Int" >
+		</label>
+		<input
+			asp-for="Input.Int"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.IntAsText" >
+		</label>
+		<input
+			asp-for="Input.IntAsText"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Password" >
+		</label>
+		<input
+			asp-for="Input.Password"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Phone" >
+		</label>
+		<input
+			asp-for="Input.Phone"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.String" >
+		</label>
+		<input
+			asp-for="Input.String"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.StringAsDate" >
+		</label>
+		<input
+			asp-for="Input.StringAsDate"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Url" >
+		</label>
+		<input
+			asp-for="Input.Url"
+			class="form-control" />
+	</div>
+	<div
+		class="form-group " >
+		<label
+			asp-for="Input.Multiline" >
+		</label>
+		<textarea asp-for="Input.Multiline"></textarea>
+	</div>
+	<p>Submit the form to see the validation errors summary:</p>
+
+	<div
+		asp-validation-summary="All"
+		class="text-danger" >
+	</div>
+
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+
+</form>

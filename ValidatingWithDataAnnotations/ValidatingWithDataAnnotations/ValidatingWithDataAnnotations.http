@@ -1,0 +1,6 @@
+@ValidatingWithDataAnnotations_HostAddress = http://localhost:5013
+
+GET {{ValidatingWithDataAnnotations_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

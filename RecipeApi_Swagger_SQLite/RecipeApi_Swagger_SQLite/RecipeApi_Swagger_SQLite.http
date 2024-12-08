@@ -1,0 +1,6 @@
+@RecipeApi_Swagger_SQLite_HostAddress = http://localhost:5225
+
+GET {{RecipeApi_Swagger_SQLite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

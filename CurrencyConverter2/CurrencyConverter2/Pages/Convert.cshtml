@@ -1,0 +1,70 @@
+﻿@page
+@model ConvertModel
+@{
+	ViewData["Title"] = "Convert currency";
+}
+<h1>Convert values</h1>
+<p>Choose the values </p>
+
+<form
+	method="post" >
+	<div
+		class="form-group" >
+		<label
+			asp-for="Input.CurrencyFrom" >
+		</label>
+		<select
+			asp-for="Input.CurrencyFrom"
+			asp-items="Model.CurrencyCodes"
+			class="dropdown form-control" >
+			<option
+				value="" >
+			</option>
+		</select>
+		<span
+			asp-validation-for="Input.CurrencyFrom"
+			class="text-danger" >
+		</span>
+	</div>
+	<div
+		class="form-group" >
+		<label
+			asp-for="Input.Quantity" >
+		</label>
+		<input
+			asp-for="Input.Quantity"
+			class="form-control" />
+		<span
+			asp-validation-for="Input.Quantity"
+			class="text-danger" >
+		</span>
+	</div>
+	<div
+		class="form-group" >
+		<label
+			asp-for="Input.CurrencyTo" >
+		</label>
+		<!--<input asp-for="Input.CurrencyTo" class="form-control" />-->
+		<select
+			asp-for="Input.CurrencyTo"
+			asp-items="Model.CurrencyCodes"
+			class="dropdown form-control" >
+			<option
+				value="" >
+			</option>
+		</select>
+		<span
+			asp-validation-for="Input.CurrencyTo"
+			class="text-danger" >
+		</span>
+	</div>
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+	<div
+		asp-validation-summary="All"
+		class="text-danger" >
+	</div>
+</form>

@@ -1,0 +1,6 @@
+@CustomTagHelpers_HostAddress = http://localhost:5043
+
+GET {{CustomTagHelpers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@DefaultTemplate_SQLite_HostAddress = http://localhost:5041
+
+GET {{DefaultTemplate_SQLite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

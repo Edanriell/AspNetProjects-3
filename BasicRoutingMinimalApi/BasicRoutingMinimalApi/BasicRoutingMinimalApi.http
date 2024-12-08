@@ -1,0 +1,6 @@
+@BasicRoutingMinimalApi_HostAddress = http://localhost:5020
+
+GET {{BasicRoutingMinimalApi_HostAddress}}/person/Al/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@SystemdService_HostAddress = http://localhost:5041
+
+GET {{SystemdService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

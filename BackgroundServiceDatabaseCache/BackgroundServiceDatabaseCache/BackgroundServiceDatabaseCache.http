@@ -1,0 +1,6 @@
+@BackgroundServiceDatabaseCache_HostAddress = http://localhost:5140
+
+GET {{BackgroundServiceDatabaseCache_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

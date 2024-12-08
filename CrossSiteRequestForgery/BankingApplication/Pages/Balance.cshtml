@@ -1,0 +1,28 @@
+﻿@page
+@model BalanceModel
+@{
+	ViewData["Title"] = "Your balance";
+}
+
+<h2>Your current balance is: <strong>@Model.Balance.ToString("c")</strong></h2>
+
+<form
+	method="post" >
+	<div
+		class="form-group" >
+		<label>Amount to withdraw: </label>
+		<input
+			class="form-control"
+			id="amount"
+			min="1"
+			name="amount"
+			required
+			step="1"
+			type="number" />
+	</div>
+	<button
+		class="btn btn-primary mt-2"
+		type="submit" >
+		Withdraw funds
+	</button>
+</form>

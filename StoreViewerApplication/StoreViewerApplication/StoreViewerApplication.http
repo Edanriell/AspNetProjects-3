@@ -1,0 +1,6 @@
+@StoreViewerApplication_HostAddress = http://localhost:5025
+
+GET {{StoreViewerApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

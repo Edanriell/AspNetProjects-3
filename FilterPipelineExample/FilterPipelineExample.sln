@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterPipelineExample", "FilterPipelineExample\FilterPipelineExample.csproj", "{7A75487E-1DB9-447B-A29A-B9F343BB94DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A75487E-1DB9-447B-A29A-B9F343BB94DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A75487E-1DB9-447B-A29A-B9F343BB94DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A75487E-1DB9-447B-A29A-B9F343BB94DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A75487E-1DB9-447B-A29A-B9F343BB94DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

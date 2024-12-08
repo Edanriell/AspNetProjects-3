@@ -1,0 +1,6 @@
+@OpenApiExampleNswag_HostAddress = http://localhost:5203
+
+GET {{OpenApiExampleNswag_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

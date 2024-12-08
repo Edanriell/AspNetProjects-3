@@ -1,0 +1,109 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+
+<h2>Pick your favourite language!</h2>
+
+<form
+	method="post" >
+	<div
+		class="row" >
+		<div
+			class="col-md-3" >
+			<div
+				class="form-group" >
+				<label>Standard dropdown</label>
+				<select
+					asp-for="Input.SelectedValue1"
+					asp-items="Model.Items"
+					class="dropdown form-control" >
+					<option
+						value="" >
+						**Not selected**
+					</option>
+				</select>
+			</div>
+		</div>
+		<div
+			class="col-md-3" >
+			<div
+				class="form-group" >
+				<label>Single item list box</label>
+				<select
+					asp-for="Input.SelectedValue2"
+					asp-items="Model.Items"
+					class="form-control"
+					size="@Model.Items.Count()" >
+				</select>
+			</div>
+		</div>
+		<div
+			class="col-md-3" >
+			<div
+				class="form-group" >
+				<label>Multi item list box</label>
+				<select
+					asp-for="Input.MultiValues1"
+					asp-items="Model.Items"
+					class="form-control"
+					style="height:120px" >
+				</select>
+			</div>
+		</div>
+		<div
+			class="col-md-3" >
+			<div
+				class="form-group" >
+				<label>List box with Groups </label>
+				<select
+					asp-for="Input.MultiValues2"
+					asp-items="Model.ItemsWithGroups"
+					class="form-control"
+					style="height:160px" >
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+</form>
+
+<h2>Pick your favourite language!</h2>
+
+<div
+	class="row" >
+	<div
+		class="col-md-6" >
+		<div
+			class="form-group" >
+			<label>Without "No Selection" Option</label>
+			<select
+				asp-for="Input.SelectedValue1"
+				asp-items="Model.Items"
+				class="dropdown form-control" >
+			</select>
+		</div>
+	</div>
+	<div
+		class="col-md-6" >
+		<div
+			class="form-group" >
+			<label>With "No Selection" Option</label>
+			<select
+				asp-for="Input.SelectedValue1"
+				asp-items="Model.Items"
+				class="dropdown form-control" >
+				<option
+					value="" >
+					**Not selected**
+				</option>
+			</select>
+		</div>
+	</div>
+</div>

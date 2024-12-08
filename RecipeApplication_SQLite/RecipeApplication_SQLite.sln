@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeApplication_SQLite", "RecipeApplication_SQLite\RecipeApplication_SQLite.csproj", "{78EB3B48-6807-4069-9356-9055F4EDC3E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78EB3B48-6807-4069-9356-9055F4EDC3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EB3B48-6807-4069-9356-9055F4EDC3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EB3B48-6807-4069-9356-9055F4EDC3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EB3B48-6807-4069-9356-9055F4EDC3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

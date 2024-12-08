@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingExample", "RoutingExample\RoutingExample.csproj", "{B5914C7A-FAB1-419B-BE30-95A2B66FB8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5914C7A-FAB1-419B-BE30-95A2B66FB8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5914C7A-FAB1-419B-BE30-95A2B66FB8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5914C7A-FAB1-419B-BE30-95A2B66FB8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5914C7A-FAB1-419B-BE30-95A2B66FB8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

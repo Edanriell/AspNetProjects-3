@@ -1,0 +1,6 @@
+@RecipeApplication_SQLite2_HostAddress = http://localhost:5130
+
+GET {{RecipeApplication_SQLite2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

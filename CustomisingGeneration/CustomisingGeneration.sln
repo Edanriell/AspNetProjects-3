@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{F5B09717-B8EE-4324-977F-2F94B263C8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApiExample", "OpenApiExample\OpenApiExample.csproj", "{5061ED84-97F5-4770-9F1D-928F1A239921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5B09717-B8EE-4324-977F-2F94B263C8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B09717-B8EE-4324-977F-2F94B263C8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B09717-B8EE-4324-977F-2F94B263C8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B09717-B8EE-4324-977F-2F94B263C8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5061ED84-97F5-4770-9F1D-928F1A239921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5061ED84-97F5-4770-9F1D-928F1A239921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5061ED84-97F5-4770-9F1D-928F1A239921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5061ED84-97F5-4770-9F1D-928F1A239921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

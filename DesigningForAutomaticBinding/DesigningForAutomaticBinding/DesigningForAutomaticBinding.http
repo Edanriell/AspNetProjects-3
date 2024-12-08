@@ -1,0 +1,6 @@
+@DesigningForAutomaticBinding_HostAddress = http://localhost:5262
+
+GET {{DesigningForAutomaticBinding_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

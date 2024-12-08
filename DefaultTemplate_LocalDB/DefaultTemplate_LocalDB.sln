@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultTemplate_LocalDB", "DefaultTemplate_LocalDB\DefaultTemplate_LocalDB.csproj", "{DC4D1ACB-B0DF-4208-A8A7-53D0B6E54895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC4D1ACB-B0DF-4208-A8A7-53D0B6E54895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4D1ACB-B0DF-4208-A8A7-53D0B6E54895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4D1ACB-B0DF-4208-A8A7-53D0B6E54895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4D1ACB-B0DF-4208-A8A7-53D0B6E54895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

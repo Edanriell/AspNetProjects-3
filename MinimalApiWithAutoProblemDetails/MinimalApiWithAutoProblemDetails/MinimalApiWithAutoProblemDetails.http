@@ -1,0 +1,6 @@
+@MinimalApiWithAutoProblemDetails_HostAddress = http://localhost:5249
+
+GET {{MinimalApiWithAutoProblemDetails_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

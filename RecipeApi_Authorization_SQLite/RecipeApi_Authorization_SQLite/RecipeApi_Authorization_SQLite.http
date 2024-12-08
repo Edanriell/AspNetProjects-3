@@ -1,0 +1,6 @@
+@RecipeApi_Authorization_SQLite_HostAddress = http://localhost:5206
+
+GET {{RecipeApi_Authorization_SQLite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

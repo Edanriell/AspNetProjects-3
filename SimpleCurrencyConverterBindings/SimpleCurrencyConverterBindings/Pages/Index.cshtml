@@ -1,0 +1,139 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Success";
+	string url;
+}
+<h1>Click submit to make a request, and see the results</h1>
+
+@{
+	url = "/GBP/USD";
+}
+<form
+	action="@url"
+	asp-antiforgery="true"
+	method="post" >
+	<p>@url</p>
+	<p>Form Values: none</p>
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+</form>
+<hr />
+
+@{
+	url = "/GBP/USD?currencyIn=CAD";
+}
+<form
+	action="@url"
+	asp-antiforgery="true"
+	method="post" >
+	<p>@url</p>
+	<p>Form Values:</p>
+	<div
+		class="form-group" >
+		<label
+			class="label"
+			for="QTY" >
+			QTY
+		</label>
+		<input
+			class="form-control"
+			name="QTY"
+			type="text"
+			value="50" />
+	</div>
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+</form>
+<hr />
+
+@{
+	url = "/GBP/USD?qty=100";
+}
+<form
+	action="@url"
+	asp-antiforgery="true"
+	method="post" >
+	<p>@url</p>
+	<p>Form Values:</p>
+	<div
+		class="form-group" >
+		<label
+			class="label"
+			for="QTY" >
+			QTY
+		</label>
+		<input
+			class="form-control"
+			name="QTY"
+			type="text"
+			value="50" />
+	</div>
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+</form>
+<hr />
+
+@{
+	url = "/GBP/USD?qty=100";
+}
+<form
+	action="@url"
+	asp-antiforgery="true"
+	method="post" >
+	<p>@url</p>
+	<p>Form Values:</p>
+	<div
+		class="form-group" >
+		<label
+			class="label"
+			for="currencyIn" >
+			currencyIn
+		</label>
+		<input
+			class="form-control"
+			name="currencyIn"
+			type="text"
+			value="CAD" />
+	</div>
+	<div
+		class="form-group" >
+		<label
+			class="label"
+			for="currencyOut" >
+			currencyOut
+		</label>
+		<input
+			class="form-control"
+			name="currencyOut"
+			type="text"
+			value="EUR" />
+	</div>
+	<div
+		class="form-group" >
+		<label
+			class="label"
+			for="qty" >
+			qty
+		</label>
+		<input
+			class="form-control"
+			name="qty"
+			type="text"
+			value="50" />
+	</div>
+	<button
+		class="btn btn-primary"
+		type="submit" >
+		Submit
+	</button>
+</form>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesWeb2", "ExchangeRatesWeb2\ExchangeRatesWeb2.csproj", "{763B8E77-E1CD-4957-9EC1-737C9CF639D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesWeb2.Test", "ExchangeRatesWeb2.Test\ExchangeRatesWeb2.Test.csproj", "{D6E069AF-4E0F-45A4-941B-0C54185F914D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{763B8E77-E1CD-4957-9EC1-737C9CF639D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763B8E77-E1CD-4957-9EC1-737C9CF639D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763B8E77-E1CD-4957-9EC1-737C9CF639D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763B8E77-E1CD-4957-9EC1-737C9CF639D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E069AF-4E0F-45A4-941B-0C54185F914D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E069AF-4E0F-45A4-941B-0C54185F914D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E069AF-4E0F-45A4-941B-0C54185F914D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E069AF-4E0F-45A4-941B-0C54185F914D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

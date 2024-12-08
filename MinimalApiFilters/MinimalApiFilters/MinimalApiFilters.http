@@ -1,0 +1,6 @@
+@MinimalApiFilters_HostAddress = http://localhost:5161
+
+GET {{MinimalApiFilters_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
